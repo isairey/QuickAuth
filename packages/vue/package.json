@@ -1,0 +1,20 @@
+{
+  "name": "@quickauth/vue",
+  "version": "0.1.0",
+  "description": "Vue 3 components for QuickAuth",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "vue": "^3.3.0"
+  }
+}
